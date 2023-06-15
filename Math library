@@ -1,0 +1,7 @@
+from math import *
+
+print(max(15,19,30,47,82,90,91,77,99))
+print(min(15,19,30,47,82,90,91,77,99))
+print(abs(-15))
+print(pow(15,19))
+print(sqrt(15))
