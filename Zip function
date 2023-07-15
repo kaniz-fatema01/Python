@@ -1,0 +1,23 @@
+
+number_list = []
+n = int(input("Enter how many roll you want to input = "))
+
+print("\n")
+for i in range(0, n):
+    print("Enter Roll number at index", i, )
+    item = int(input())
+    number_list.append(item)
+print("Your input list is ", number_list)
+
+#------------
+
+
+input_string = input("Enter all family members name separated by space  ")
+# Split string into words
+name_list = input_string.split(" ")
+
+print("\n")
+print(name_list)
+
+
+print(list(zip(number_list, name_list)))
