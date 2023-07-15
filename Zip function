@@ -1,4 +1,3 @@
-
 number_list = []
 n = int(input("Enter how many roll you want to input = "))
 
@@ -12,7 +11,7 @@ print("Your input list is ", number_list)
 #------------
 
 
-input_string = input("Enter all family members name separated by space  ")
+input_string = input("Enter student names by space  ")
 # Split string into words
 name_list = input_string.split(" ")
 
