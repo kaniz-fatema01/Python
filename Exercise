@@ -1,0 +1,25 @@
+class shape:
+    def __init__(self,height,weight):
+        self.height = height
+        self.weight = weight
+
+    def area(self):
+        print("area")
+
+class tri(shape):
+    def area(self):
+        area = .5* self.weight* self.height
+        print("area of triangle",area)
+
+class rec(shape):
+    def area(self):
+        area = self.weight* self.height
+        print("area of rectangle",area)
+
+a = int(input("Enter Height, A = "))
+b = int(input("Enter a base, B = "))
+t1 = tri(a,b)
+t1.area()
+
+r1= rec(a,b)
+r1.area()
